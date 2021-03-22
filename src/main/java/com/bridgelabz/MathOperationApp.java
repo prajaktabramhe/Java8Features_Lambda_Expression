@@ -10,7 +10,8 @@ interface IMathFunction
     }
 }
 
-public class MathOperationApp {
+public class MathOperationApp
+{
     public static void main(String[] args)
     {
 
