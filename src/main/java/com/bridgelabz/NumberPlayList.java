@@ -11,7 +11,7 @@ public class NumberPlayList
     {
         // creating simple collection
         List<Integer> myNumberList = new ArrayList<Integer>();
-        for (int i = 0; i < 5; i++) myNumberList.add(1);
+        for (int i = 0; i < 5; i++) myNumberList.add(i);
 
 
     //Method1: Traversing using Iterator
