@@ -13,7 +13,6 @@ public class NumberPlayList
         List<Integer> myNumberList = new ArrayList<Integer>();
         for (int i = 0; i < 5; i++) myNumberList.add(i);
 
-
     //Method1: Traversing using Iterator
     Iterator<Integer> it = myNumberList.iterator();
     while(it.hasNext())
@@ -21,6 +20,7 @@ public class NumberPlayList
         Integer i = it.next();
         System.out.println("Iterator Value::" + i);
     }
+
     //Method 2: Traversing with Consumer integer implementation
     class MyConsumer implements Consumer<Integer>
     {
