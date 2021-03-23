@@ -80,17 +80,18 @@ public class NumberPlayList {
                                   .orElse(null);
         System.out.println("Mth10: Printing Double List:" + first);
 
-        //Method 11: Listing the first even
+        //Method 11: Minimum Even Number
         Integer min = myNumberList.stream()
                                   .filter(isEvenFunction)
                                   .min((n1, n2) -> n1-n2)
                                   .orElse(null);
                 System.out.println("Mth11: Min Even:" + min);
-        //Method 12: Listing the first even
+        //Method 12: Maximum Even Number
         Integer max = myNumberList.stream().filter(isEvenFunction)
                                    .filter(isEvenFunction)
                                    .max(Comparator.comparing(Integer::intValue))
                                    .orElse(null);
         System.out.println("Mth12: Max even:" + max);
+
     }
 }
