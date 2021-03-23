@@ -98,6 +98,6 @@ public class NumberPlayList {
                       .reduce(0,Integer::sum);
         long count = myNumberList.stream().count();
         System.out.println("Mth13: Average of " + sum + "/" + count + "= "+sum/count);
-
     }
+
 }
